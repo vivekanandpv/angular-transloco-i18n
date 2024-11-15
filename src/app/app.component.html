@@ -1,0 +1,25 @@
+<div class="p-5">
+  <main>
+    <language-switcher></language-switcher>
+
+    <nav *transloco="let t">
+      <ul>
+        <li>
+          <a routerLink="/">{{ t('nav.home') }}</a>
+        </li>
+        <li>
+          <a routerLink="/about">{{ t('nav.about') }}</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <h4>Today: {{ today | translocoDate }}</h4>
+    <h4>Price: {{ price | translocoCurrency }}</h4>
+    <h4>Pi: {{ pi | translocoDecimal }}</h4>
+
+    <hr />
+    <router-outlet></router-outlet>
+  </main>
+</div>

@@ -1,0 +1,14 @@
+{
+  "welcome": "مرحبًا بكم في Transloco!",
+  "description": "هذا هو شرح Transloco بواسطة {{name}}.",
+  "en": "الإنجليزية",
+  "es": "الإسبانية",
+  "ar": "العربية",
+  "add": "يضيف",
+  "choose_language": "اختر اللغة",
+  "itemCount": "{count, plural, =0 {لا توجد عناصر} one {عنصر واحد} other {# عناصر}}",
+  "nav": {
+    "home": "الصفحة الرئيسية",
+    "about": "معلومات عنا"
+  }
+}
